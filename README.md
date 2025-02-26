@@ -1,3 +1,9 @@
+# Introduction
+
+My name is **Nolan Anderson**! I am a graduate student studying Computer Science and Engineering at Santa Clara University. If you want to know more about me, consider checking out my [LinkedIn page](https://www.linkedin.com/in/nolanranderson/).
+
+Anyways, this document summarizes the majority of the projects I have worked on in my free time, at work, and during my school experience. I hope you find it insightful.
+
 # Personal Projects
 
 ## SoundSwitch
@@ -62,7 +68,7 @@
 - **Subject:** Deep Learning (CSEN 342)
 - **Technologies:** Python, PyTorch
 - Worked on enhancing a deep clustering method, [DECCS](https://arxiv.org/abs/2210.07063)
-- Performed a variety of experiments: introduced quantization, added noise, added convulutional layers, trained the autoencoder from scratch, etc.
+- Performed a variety of experiments: introduced quantization, added noise, added convolutional layers, trained the autoencoder from scratch, etc.
 - Worked with common datasets like MNIST
 
 ## Latent Lyrics Modeling
@@ -78,15 +84,15 @@
 - **Subject:** Machine Learning (CSEN 240)
 - **Technologies:** Python, NumPy, Pandas, Matplotlib
 
-![Genre Grouping Scatter Plot](images/music-genre-classification.png "Genre Grouping Scatter Plot")
-
 - Used audio features to produce a genre group label
     - acousticness, danceability, energy, instrumentalness, loudness, and valance
 - Leveraged K-Means with 50,000 samples
 - Applied my own labels to the generated clusters based upon centroid characteristics
 - Tested different numbers of clusters using Inertia as my evaluation metric
 - Discovered clear 4 genre groupings
-- Used Principal Component Analysis (PCA) to plot
+- Used Principal Component Analysis (PCA) to plot (see below)
+
+![Genre Grouping Scatter Plot](images/music-genre-classification.png "Genre Grouping Scatter Plot")
 
 
 ## Gossip Simulator
@@ -100,12 +106,12 @@
 - **Subject:** Cloud Computing (CSEN 241)
 - **Technologies:** Docker, Python, JavaScript
 
-![System Architecture Diagram](images/online-c-compiler.png "System Architecture Diagram")
-
 - Developed an extensible online C compiler using AWS infrastructure
     - Used containerization, virtual machines (EC2), serverless functions (Lambda), and object storage (S3)
 - Supports multiple compiler and compiler versions (gcc, clang, etc.) for easy testing
 - Compilation occurs in containers, object storage holds the executables, execution occurs via Lambda functions
+
+![System Architecture Diagram](images/online-c-compiler.png "System Architecture Diagram")
 
 ## Play to Code
 - **Subject:** Undergraduate Senior Project (CSEN 194-196)
@@ -113,9 +119,26 @@
 - Constructed a full-stack application to teach children to code
 - Developed interactive games with Godot, the open source game engine
 - Deployed application to the cloud
+- Presented to a panel of judges knowledgeable in the field
 
 ## Aggregate Gamer-score
 - **Subject:** Software Engineering (CSEN 174)
 - **Technologies:** Vue.js, JavaScript, Python
 - Compute aggregate gamer-score (a unique metric based on your gaming prowess) using connected accounts
     - Connect to your Chess.com, PlayStation, Steam, and Xbox accounts
+
+# High School Projects
+
+## Port-a-Pi Handheld
+- **Skills:** planning, construction, soldering, scripting
+- **Subject:** Senior Project
+- **Technologies:** Bash, Python, C
+- Constructed a Raspberry Pi-based handheld device
+- Integrated camera allows for QR-code based parental control using my custom scripts
+- Integrated Teensy micro-controller allows for customizable button mappings (Programmed with C in the Arduino IDE)
+- Handheld device also includes integrated controller, battery, touchscreen, speakers, etc.
+- Presented to a panel of judges knowledgeable in the field
+
+![Finished handheld](images/high-school-sp-1.jpg "Finished handheld")
+
+![Inside the handheld](images/high-school-sp-2.jpg "Inside the handheld")
