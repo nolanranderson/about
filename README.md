@@ -23,11 +23,16 @@ Anyways, this document summarizes the majority of the projects I have worked on 
 - Added additional functionality to combine actions in a repeatable way (e.g. no out of sync actions due to toggle).
 - Used WireShark to sniff local network traffic
 
+![myAPI](images/myapi.png "myAPI")
+
 ## Game Catalog
 - **Skills:** web scraping, database
-- **Technologies:** C#, .NET Framework, SQLite
+- **Technologies:** C#, .NET Framework, SQLite, Node.js
 - Designed a program to manage game databases for a variety of different video game consoles
 - Allows searching for specific game tiles, sorting by region, viewing cover art, etc.
+- Catalog view also enabled via Node.js (shown below)
+
+![Node.js Game Catalog](images/ubm-node.png "Node.js Game Catalog")
 
 ## autoBEQ
 - **Technologies:** Python
@@ -121,11 +126,15 @@ Anyways, this document summarizes the majority of the projects I have worked on 
 - Deployed application to the cloud
 - Presented to a panel of judges knowledgeable in the field
 
+![Play to Code](images/play2code.png "Play to Code")
+
 ## Aggregate Gamer-score
 - **Subject:** Software Engineering (CSEN 174)
 - **Technologies:** Vue.js, JavaScript, Python
 - Compute aggregate gamer-score (a unique metric based on your gaming prowess) using connected accounts
     - Connect to your Chess.com, PlayStation, Steam, and Xbox accounts
+
+![Aggregate Gamer-score](images/gamerscore.png "Aggregate Gamer-score")
 
 # High School Projects
 
