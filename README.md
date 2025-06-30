@@ -1,6 +1,6 @@
 # Introduction
 
-My name is **Nolan Anderson**! I am a graduate student studying Computer Science and Engineering at Santa Clara University. If you want to know more about me, consider checking out my [LinkedIn page](https://www.linkedin.com/in/nolanranderson/).
+My name is **Nolan Anderson**! I am a recent graduate of Santa Clara University, and I have an M.S. in Computer Science and Engineering. If you want to know more about me, consider checking out my [LinkedIn page](https://www.linkedin.com/in/nolanranderson/).
 
 Anyways, this document summarizes the majority of the projects I have worked on in my free time, at work, and during my school experience. I hope you find it insightful.
 
